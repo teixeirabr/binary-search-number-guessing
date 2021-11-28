@@ -74,7 +74,7 @@ function numIsHigher(higher) {
   }
   toggleBtns([higherBtn, lowerBtn], false);
 
-  if (currGuess > 1 && currGuess <= 100) {
+  if (currGuess > 1 && currGuess < 100) {
     tryGuess();
   } else {
     nonSensicalAnswer();
